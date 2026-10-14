@@ -439,5 +439,9 @@ a.more:hover{color:var(--text)}
 .formmsg{margin-top:12px;font-size:.88rem;color:var(--amber)}
 @media(max-width:560px){.person{grid-template-columns:90px 1fr}.person .ph{width:90px;height:116px}}
 
+.fcol a.fl{display:inline-block;margin-bottom:0}
+.fcol a.fl:hover .tag{background:rgba(255,255,255,.08)}
+.fcol h4 a{display:inline;margin:0;color:inherit;font:inherit;letter-spacing:inherit;text-transform:inherit}
+.fcol h4 a:hover{color:var(--ink)}
 .cta.a{color:#fff;font-weight:400}
 .cta.a:hover{background:#ff3b37;color:#fff}
